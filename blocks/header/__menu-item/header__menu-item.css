@@ -1,0 +1,9 @@
+.header__menu-item {
+  margin-right: 39px;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.header__menu-item:last-of-type {
+  margin: 0;
+}
