@@ -1,0 +1,8 @@
+.page {
+  max-width: 1377px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif; /*узнать стиль шрифта и подключить его*/
+  color: #000;
+}
