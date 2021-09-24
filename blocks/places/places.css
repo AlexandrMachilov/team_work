@@ -2,6 +2,6 @@
     margin: 0 auto;
     background-color: #f2f2f2;
     display: grid;
-    max-width: 100%;
+
     grid-template-rows: repeat(3, minmax(min-content, max-content));
 }
