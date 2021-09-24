@@ -41,8 +41,37 @@
 
         <section class="people"></section>
 
-        <section class="form"></section>
-        <!--можно название поменять, если хочешь-->
+        <section class="form">
+          <div class="form__container">
+            <h2 class="form__title">Так куда же я поеду?</h2>
+            <form class="form__admin" action="">
+              <fieldset class="form__items">
+                <input
+                  class="form__item form__item_el_place"
+                  type="text"
+                  name="place"
+                  placeholder="Я поеду ..."
+                  required
+                />
+                <textarea
+                  class="form__item form__item_el_reason"
+                  name="reason"
+                  placeholder="Потому что я ..."
+                ></textarea>
+                <input
+                  class="form__button"
+                  type="submit"
+                  value="Поехали уже куда-нибудь!"
+                />
+              </fieldset>
+            </form>
+          </div>
+          <img
+            class="form__image"
+            src="./images/airport-schedule.jpg"
+            alt="Фотография табло аэропорта."
+          />
+        </section>
 
         <section class="video"></section>
       </main>
