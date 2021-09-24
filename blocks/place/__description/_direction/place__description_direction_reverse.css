@@ -1,0 +1,11 @@
+.place__description_direction_reverse {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    /* задал grid-row, чтобы блоки не ломались */
+}
+
+@media screen and (max-width: 767px) {
+    .place__description_direction_reverse {
+        grid-row: -1;
+    }
+}
