@@ -1,0 +1,21 @@
+.people {
+  background-color: #fff;
+  max-width: 1217px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 86px 0 74px;
+  padding: 146px 0 133px;
+}
+
+@media screen and (max-width: 1053px) {
+  .people {
+    margin: 0 50px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .people {
+    margin: 0 20px 0;
+  }
+}
