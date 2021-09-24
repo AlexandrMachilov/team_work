@@ -1,0 +1,10 @@
+.section-title__block_people {
+  max-width: 426px;
+  margin: 0 0 130px;
+}
+
+@media screen and (max-width: 767px) {
+  .section-title__block_people {
+    margin: 0 0 90px;
+  }
+}
