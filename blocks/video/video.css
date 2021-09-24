@@ -1,0 +1,4 @@
+.video {
+    max-width: 100%;
+    height: calc(156px - 0.48912*(320px - 100vw));
+}
