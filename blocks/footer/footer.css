@@ -3,4 +3,13 @@
     height: 667px;
     width: 100%;
     background-color: #FECDA7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        height: calc(250px - 0.6935*(320px - 100vw));
+    }
 }
