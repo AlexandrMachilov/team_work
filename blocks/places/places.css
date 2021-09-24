@@ -2,12 +2,6 @@
     margin: 0 auto;
     background-color: #f2f2f2;
     display: grid;
-    max-width: 1377px;
+    max-width: 100%;
     grid-template-rows: repeat(3, minmax(min-content, max-content));
-}
-
-@media screen and (max-wdith: 767px) {
-    .places {
-        grid-template-rows: repeat(3, minmax(min-content, max-content));
-    }
 }
