@@ -1,0 +1,22 @@
+.form {
+  background-color: #f2f2f2;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr minmax(50%, 1fr);
+  grid-template-rows: max-content;
+}
+
+@media screen and (max-width: 930px) {
+  .form {
+    grid-template-columns: 1fr;
+    gap: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form {
+    gap: 50px;
+  }
+}

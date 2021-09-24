@@ -1,0 +1,26 @@
+.form__container {
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  padding: 153px 0 131px;
+  margin: 0 0 0 74px;
+}
+
+@media screen and (max-width: 1053px) {
+  .form__container {
+    margin: 0 0 0 50px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .form__container {
+    padding: 60px 0 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form__container {
+    margin: 0 auto;
+    width: calc(100% - 20px * 2);
+  }
+}
