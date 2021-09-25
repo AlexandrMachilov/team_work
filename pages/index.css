@@ -31,3 +31,14 @@
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__text/card__text.css);
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__container/form__container.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__admin/form__admin.css);
+@import url(../blocks/form/__items/form__items.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_el/form__item_el_place.css);
+@import url(../blocks/form/__item/_el/form__item_el_reason.css);
+@import url(../blocks/form/_button/form__button.css);
+@import url(../blocks/form/__image/form__image.css);
