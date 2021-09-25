@@ -42,3 +42,6 @@
 @import url(../blocks/form/__item/_el/form__item_el_reason.css);
 @import url(../blocks/form/_button/form__button.css);
 @import url(../blocks/form/__image/form__image.css);
+
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__content/video__content.css);
