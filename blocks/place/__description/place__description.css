@@ -1,0 +1,8 @@
+.place__description {
+    padding: 10.92% 0 14.36% 11.67%;
+    /* задал в процентах, чтобы блок был резиновый
+    Если задавал бы через margin, то блок не был бы адаптивным */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
