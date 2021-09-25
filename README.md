@@ -11,7 +11,7 @@
 * В проекте используются формы, видео
 
 # Ссылки
-Ссылка на проект   
+Ссылка на проект: https://alexandrmachilov.github.io/team_work/
 Ссылка на участников:  
 1)https://github.com/AlexandrMachilov  
 2)https://github.com/DanyKuzmenko
